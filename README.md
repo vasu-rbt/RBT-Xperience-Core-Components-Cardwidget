@@ -36,7 +36,6 @@ View Structure:Views/Shared/Card/ViewName.cshtml
             </div>
             <div class="cell small-12 medium-6 text-center medium-text-left">
                 <h2><a href="@Model.TargetURL">@Model.Title</a></h2>
-
                 <p>@Model.Description</p>
                 @if (Model.IsButton == true)
                 {
