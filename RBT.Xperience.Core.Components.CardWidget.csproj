@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <OutputType>Library</OutputType>
+    <PackageId>RBT.Xperience.Core.Components.CardWidget</PackageId>
+    <Version>1</Version>
+    <Authors>Niharika Vasantham</Authors>
+    <Company>Ray Business Technologies Pvt Ltd</Company>
+    <IsPackable>true</IsPackable>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Kentico.Xperience.AspNetCore.WebApp" Version="13.0.64" />
+  </ItemGroup>
+
+</Project>
